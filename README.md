@@ -1,6 +1,6 @@
 ## Babilony SQRT
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MXveVqBxFow?si=TBsnxWAPJy8DvsIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![How To Calculate Any Square Root](http://img.youtube.com/vi/MXveVqBxFow/0.jpg)](http://www.youtube.com/watch?v=MXveVqBxFow "How To Calculate Any Square Root")
 
 ## To start Jupyter environment
 * Install https://flox.dev/
