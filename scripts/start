@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+cd -P "$(dirname "$0")/.." || exit
+
+direnv dump > .envrc.cache
+TMUX="" tmux new-session \
+	-e PATH="$PATH" '
+  echo ""                                                                                    &&
+  echo "Jupyter: http://localhost:8888/lab"                                                  &&
+  echo "Babilony SQRT: http://localhost:8888/lab/workspaces/auto-m/tree/Babilony_SQRT.ipynb" &&
+  read
+' \; split-window -f -l 80% '
+  function ctrl_c() {
+    tmux kill-session
+  }
+  trap ctrl_c INT
+  source <(direnv apply_dump .envrc.cache)
+  jupyter lab                             \
+    --no-browser                          \
+    --ServerApp.root_dir="$PWD"           \
+    --ServerApp.token="$JUPYTER_PASSWORD" \
+    --ip 0.0.0.0                          \
+    --port 8888                           \
+    "$@"
+  read
+'

@@ -1,0 +1,147 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "jupyterlab": {
+        "pkg-path": "python312Packages.jupyterlab"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "python312Packages.jupyterlab",
+      "broken": false,
+      "derivation": "/nix/store/h11kj01m7rap8m2gjfq9yg3syn2951ym-python3.12-jupyterlab-4.2.5.drv",
+      "description": "Jupyter lab environment notebook server extension",
+      "install_id": "jupyterlab",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "name": "python3.12-jupyterlab-4.2.5",
+      "pname": "jupyterlab",
+      "rev": "ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "rev_count": 714768,
+      "rev_date": "2024-12-01T01:19:13Z",
+      "scrape_date": "2024-12-03T03:55:23Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.12-jupyterlab-4.2.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/qajjxhda29xmxamgs8n7smkf5p359rp2-python3.12-jupyterlab-4.2.5-dist",
+        "out": "/nix/store/pkx7qnl0z9sxkm1k7hn29cppzafyrymv-python3.12-jupyterlab-4.2.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.jupyterlab",
+      "broken": false,
+      "derivation": "/nix/store/la6zvmd03i8a8wmdvhgrr1i658a6b0vr-python3.12-jupyterlab-4.2.5.drv",
+      "description": "Jupyter lab environment notebook server extension",
+      "install_id": "jupyterlab",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "name": "python3.12-jupyterlab-4.2.5",
+      "pname": "jupyterlab",
+      "rev": "ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "rev_count": 714768,
+      "rev_date": "2024-12-01T01:19:13Z",
+      "scrape_date": "2024-12-03T03:55:23Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.12-jupyterlab-4.2.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/ji9wsi14izdja8b5077acqq0j246hza1-python3.12-jupyterlab-4.2.5-dist",
+        "out": "/nix/store/63fcb0y7pk5m9dgdbry21830xh7450h6-python3.12-jupyterlab-4.2.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.jupyterlab",
+      "broken": false,
+      "derivation": "/nix/store/38ilknk8khrndjg0pc3sv4r0iq1dp0bh-python3.12-jupyterlab-4.2.5.drv",
+      "description": "Jupyter lab environment notebook server extension",
+      "install_id": "jupyterlab",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "name": "python3.12-jupyterlab-4.2.5",
+      "pname": "jupyterlab",
+      "rev": "ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "rev_count": 714768,
+      "rev_date": "2024-12-01T01:19:13Z",
+      "scrape_date": "2024-12-03T03:55:23Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.12-jupyterlab-4.2.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/jg5wlpdd9bapgld75b9c6553ni2bzr0y-python3.12-jupyterlab-4.2.5-dist",
+        "out": "/nix/store/2vzhbj1r3vm04p12wla70p55inlf2kqb-python3.12-jupyterlab-4.2.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.jupyterlab",
+      "broken": false,
+      "derivation": "/nix/store/5djf0afw4xyh2kyshag20g6jh2r5nlyg-python3.12-jupyterlab-4.2.5.drv",
+      "description": "Jupyter lab environment notebook server extension",
+      "install_id": "jupyterlab",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "name": "python3.12-jupyterlab-4.2.5",
+      "pname": "jupyterlab",
+      "rev": "ac35b104800bff9028425fec3b6e8a41de2bbfff",
+      "rev_count": 714768,
+      "rev_date": "2024-12-01T01:19:13Z",
+      "scrape_date": "2024-12-03T03:55:23Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.12-jupyterlab-4.2.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/crrzchq5jjwvyp6xkmdagf0akmn4n6gd-python3.12-jupyterlab-4.2.5-dist",
+        "out": "/nix/store/kn234lnyhdzv9nny5d2afa73dzwsx9rc-python3.12-jupyterlab-4.2.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
